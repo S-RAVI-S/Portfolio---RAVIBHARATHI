@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+header {
+    background-color: #0d0d0d;
+    padding: 15px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text .dot {
+    color: red;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.btn.primary {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.skills span {
+    background-color: #1a1a1a;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.about {
+    padding: 50px;
+}
+
+.services .service {
+    margin: 10px 0;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.projects {
+    padding: 50px;
+    background-color: #1a1a1a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d0d0d;
+}
+.hero-img profile-photo {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.hero-img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color:black;
+}
